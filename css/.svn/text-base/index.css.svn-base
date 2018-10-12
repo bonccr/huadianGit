@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+/*头部*/
+.main{
+	width: 100vw;
+	height: 100vh;
+	background: url(../image/indexbg.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.top_tip .top_tital{
+	width: 100vw;
+	height: 16.29vh;
+	
+}
+.top_one{
+	width: 10.62%;
+	height: 8.36%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.top_two{
+	width:16.66%;
+	height: 8.36%;
+	position: absolute;
+	top: 0;
+	left: 10.62%;
+}
+.top_threen{
+	width: 53.66%;
+	height: 8.36%;
+	position: absolute;
+	top: 0;
+	left: 23.28%;
+}
+.top_four{
+	width: 11.5%;
+	height: 8.36%;
+	position: absolute;
+	top: 0;
+	left: 76.94%;
+}
+.top_five{
+	width: 11.5%;
+	height: 8.36%;
+	position: absolute;
+	top: 0;
+	left: 88.97%;
+}
+/*底部*/
+.btm_tip .btm_ul {
+	width: 100vw;
+	height: 11.11vh;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.btm_tip .btm_ul li{
+	font-size:32px;
+	font-family:PingFang-SC-Bold;
+	font-weight:bold;
+	color:rgba(138,142,218,1);
+	line-height:42px;
+	text-align: center;
+	line-height: 450%;
+	
+}
+.btm_ul .btm_one_it{
+	width: 13%;
+	height: 100%;
+	float: left;
+	background: url(../image/btm_left_1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_two{
+	height: 100%;
+	width: 13%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_left_1.png) no-repeat ;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_three{
+	height: 100%;
+	width: 13%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_left_3.png) ;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_four{
+	height: 100%;
+	width: 20%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_mid.png) no-repeat;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_five{
+	height: 100%;
+	width: 13%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_right_1.png)no-repeat ;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_six{
+	height: 100%;
+	width: 13%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_right_3.png)no-repeat;
+	background-size: 100% 100%;
+}
+.btm_ul .btm_seven{
+	height: 100%;
+	width: 13%;
+	background: pink;
+	float: left;
+	background: url(../image/btm_right_3.png)no-repeat;
+	background-size: 100% 100%;
+}
+/*七个页面*/
+.important_main_it{
+	font-family: "微软雅黑";
+	font-size: 26px;
+	color: #FFFFFF;
+}
+

@@ -1,0 +1,61 @@
+.tab{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    display:flex;
+    overflow: hidden;
+    align-items: flex-end;
+}
+.tab>li{
+    float:left;
+    cursor: pointer;
+}
+.pay,.deposit{
+    width:11.9rem;
+    height:3.562rem;
+    line-height:3.862rem;
+    text-align: center;
+    background:url('../image/底部状态栏_左1.png');
+    background-size:100% 100%;
+
+}
+.deposit{
+    margin-left:-2.2rem;
+}
+.loan{
+    width:12.25rem;
+    height:4.156rem;
+    line-height:5.156rem;
+    text-align: center;
+    background: url('../image/底部状态栏_左3.png');
+    background-size:100% 100%;
+    margin-left:-2.2rem;
+}
+.risk{
+    width:13.15rem;
+    height:3.562rem;
+    line-height:3.862rem;
+    background:url('../image/底部状态栏_中间.png');
+    background-size:100% 100%;
+    margin-left:-1.8rem;
+    text-align: center;
+}
+.capital{
+    width:12.18rem;
+    height:4.156rem;
+    line-height:5.156rem;
+    text-align: center;
+    background: url('../image/底部状态栏_右1.png');
+    background-size:100% 100%;
+    margin-left:-1.8rem;
+}
+.budget,.account{
+     width:11.97rem;
+     height:3.562rem;
+     line-height:3.862rem;
+     background:url('../image/底部状态栏_右3.png');
+     background-size:100% 100%;
+     margin-left:-2.2rem;
+     text-align: center;
+ }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+</head>
+<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="layui-v2.4.3/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="layui-v2.4.3/layui/css/layui.css"/>
+<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<body>
+	<div class="main">
+		<!--头部-->
+		<div class="top_tip">
+			<ul class="top_tital">
+				<li class="top_one">
+					<img src="image/顶部控件_左1.png"style="width: 100%;height: 100%;"/>
+				</li>
+				<li class="top_two">
+					<img src="image/顶部控件_左2.png"style="width: 100%;height: 100%;"/>
+				</li>
+				<li class="top_threen">
+					<img src="image/顶部控件_中间.png"/ style="width: 100%;height: 100%; margin-top: 2px;margin-left: -4px;">
+				</li>
+				<li class="top_four">
+					<img src="image/顶部控件_右12.png"style="width: 100%;height: 100%;margin-left: -50px;"/>
+				</li>
+				<li class="top_five">
+					<img src="image/顶部控件_右12.png"style="width: 100%;height: 100%;margin-left: -50px"/>
+				</li>
+			</ul>
+		</div>
+		<!--七个模块页-->
+		<div class="important_main_it" style="width: 100%;height: 80%;margin-top: -80px;">
+			
+		</div>
+		
+		<!--尾部-->
+		<div class="btm_tip">
+			<ul class="btm_ul">
+				<li class="btm_one_it" data = "1">
+					支付监控
+				</li>
+				<li class="btm_two" data = "2">
+					存款
+				</li>
+				<li class="btm_three" data = "3">
+					贷款
+				</li>
+				<li class="btm_four" data="4">
+					风险
+				</li>
+				<li class="btm_five" data="5">
+					资金
+				</li>
+				<li class="btm_six" data="6">
+					预算
+				</li>
+				<li class="btm_seven" data="7">
+					账户情况
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
