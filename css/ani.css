@@ -1,0 +1,108 @@
+._divSty{
+	background-color:rgba(0,0,0,0);
+	color:#ffffff;
+	position: absolute;
+	left: 655px;
+	top:175px;
+	padding: 2px 8px;
+	font-size: 14px;
+	width: 121px;/*129px;*/
+	height: 250px;/*256px;*/
+	background-image: url('../image/ss3.png');
+	text-align: center;
+	/*transition: width 2s;*/
+}
+._divStyDb{
+	background-color:rgba(0,0,0,0);
+	color:#ffffff;
+	position: absolute;
+	left: 275.87393716595px;         /*left值330.373937165954减去元素本身宽度的二分之一;;;top减去元素高度再加上10*/
+	top:134.2097508369461px;
+	padding: 2px 8px;
+	font-size: 14px;
+	width: 109px;/*129px;*/
+	height: 204px;/*246px;*/
+	background: url('../images/p1.png') no-repeat;
+	text-align: center;
+	-moz-transform: scale(0,0); 	/* Firefox */
+	-webkit-transform: scale(0,0);
+	transform: scale(0,0);
+	-moz-transform-origin:50% 100%;
+	-webkit-transform-origin:50% 100%;
+	transform-origin:50% 100%;
+	opacity:0;
+	/*transition: transform 2s;*/
+}
+._divStyDb_Down{
+	background: url('../images/p2.png') no-repeat;
+	-moz-transform-origin:50% 0%;
+	-webkit-transform-origin:50% 0%;
+	transform-origin:50% 0%;
+}
+@-webkit-keyframes opa{    
+   0%{opacity:0;}
+   10%{opacity:1;}  
+   85%{opacity:1;}  
+   100%{opacity:0;}  
+ } 
+ @-webkit-keyframes opa2{
+	   0%{
+	   		opacity:0;
+	   		transform: scale(0,0);
+	   }
+	   100%{
+	   		opacity:1;
+	   		transform: scale(1,1);
+	   }  
+ } 
+ .ani{
+	-webkit-animation:opa 5s infinite ease-in-out;
+	-moz-animation:opa 5s infinite ease-in-out;
+	/* �����������GPUӲ������ */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+ .ani2{
+	-webkit-animation:opa2 700ms ease forwards;
+	-moz-animation:opa2 700ms ease forwards;
+	/* �����������GPUӲ������ */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+._divspanSty{
+	margin-top: 29px;
+}
+._spantradeSty{
+	color: #ffe051;
+	font-size: 18px;
+}
+._spantitleSty{
+	color: #34C6FF;
+}
+._divspanStyDb{
+	margin-top: 55px;
+}
+._spantradeStyDb{
+	color: #ffe051;
+	font-size: 18px;
+	padding-top: 3px;
+}
+._spantitleStyDb{
+	color: #34C6FF;
+	padding-top: 5px;
+	
+}
+._spanScale{
+	transform-origin:0% 0% 0;
+	transform: scale(1,2);
+}
+._counterScale{/*����*/
+	transform-origin:0% 0% 0;
+	transform: scale(1,1.4);
+}

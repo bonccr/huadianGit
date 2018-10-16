@@ -1,0 +1,351 @@
+.bgColorG{
+	background-color: #00ff00;
+}
+.bgColorY{
+	background-color: yellow;
+}
+.bgColorO{
+	background-color: #C36300;
+}
+.bgColorR{
+	background-color: #bf0707;
+}
+.bgColorB{
+	background-color: #1a9eff;
+}
+@-webkit-keyframes green{    
+   0%{background-color: #00ff00;}
+   100%{background-color: #008100;}  
+ } 
+ @-webkit-keyframes greenline{
+    0%{/*opacity:0.2; /*透明度为0*/background-color: #00ff00;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}   
+ } 
+@-webkit-keyframes yellow{    /*透明度由0到1  黄f6d600*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: yellow;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+@-webkit-keyframes orange{    /*透明度由0到1  黄f6d600*/  
+   0%{/opacity:0.2; /*透明度为0*/background-color: #C36300;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+@-webkit-keyframes red{    /*透明度由0到1  红ff0000*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #bf0707;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ }
+ @-webkit-keyframes divshine{
+   0%{opacity:0.5;}
+   70%{opacity:0.0;}  
+   100%{opacity:0.0;}  
+ }  
+  @-moz-keyframes divshine{
+   0%{opacity:0.5;}
+   70%{opacity:0.0;}  
+   100%{opacity:0.0;}  
+ }  
+@-webkit-keyframes blue{    /*透明度由0到1  红ff0000*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #1a9eff;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #09243f;}  
+ } 
+@-moz-keyframes green{    /*透明度由0到1  黄f6d600*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #db9807;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+ @-moz-keyframes greenline{
+    0%{/*opacity:0.2; /*透明度为0*/background-color: #00ff00;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}   
+ } 
+@-moz-keyframes yellow{    /*透明度由0到1  黄f6d600*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: yellow;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+@-moz-keyframes orange{    /*透明度由0到1  黄ff9f00*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #C36300;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+@-moz-keyframes red{    /*透明度由0到1  红ff0000*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #bf0707;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ } 
+ @-moz-keyframes blue{    /*透明度由0到1  红ff0000*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #1a9eff;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #09243f;}  
+ }
+ .shineRR{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	background-color:red;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineR{
+	-webkit-animation:red 1.2s infinite ease-in-out;
+	
+	/*-webkit-width:44px; 
+	-webkit-height:44px; 
+	-webkit-border-radius:22px;*/
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:red 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineG{
+	-webkit-animation:green 2s infinite ease-in-out;
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:green 2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineGLine{
+	-webkit-animation:greenline 2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:green 2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineY{
+	-webkit-animation:yellow 1.2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:yellow 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineYY{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	background-color: yellow;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineO{
+	-webkit-animation:orange 1.2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:orange 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineOO{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	background-color: #C36300;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineB{
+	-webkit-animation:blue 2s infinite ease-in-out;
+	
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:blue 2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+/** color : [ 'red', 'orange', 'yellow','blue', 'purple', '#575757' ],//"严重(红色)", "主要(橙色)", "次要(黄色)", "告警(蓝色)", "提示(紫色)", "未知(灰色)" **/
+@-webkit-keyframes bblue{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #1a9eff;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+@-webkit-keyframes purple{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #ef1ad1;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+@-webkit-keyframes gray{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #575757;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+@-moz-keyframes bblue{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #1a9eff;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+@-moz-keyframes purple{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #ef1ad1;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+@-moz-keyframes gray{    /*透明度由0到1  */  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #575757;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+}
+.shineBB{
+	-webkit-animation:bblue 1.2s infinite ease-in-out;
+	-moz-animation:bblue 1.2s infinite ease-in-out;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineP{
+	-webkit-animation:purple 1.2s infinite ease-in-out;
+	-moz-animation:purple 1.2s infinite ease-in-out;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineGray{
+	-webkit-animation:gray 1.2s infinite ease-in-out;
+	-moz-animation:gray 1.2s infinite ease-in-out;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineBB1{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	background-color:#1a9eff;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineP1{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	background-color:purple;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineGray1{
+	-webkit-animation:divshine 1.2s infinite ease-in-out;
+	-moz-animation:divshine 1.2s infinite ease-in-out;
+	background-color:gray;
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+@-webkit-keyframes ry{
+   0%{background-image: url("../images/!R.png")}
+   100%{background-image: url("../images/!no.png")}  
+ }
+ @-webkit-keyframes yy{    
+   0%{background-image: url("../images/!Y.png")}
+   100%{background-image: url("../images/!no.png")}  
+ }
+ @-webkit-keyframes rrr{    /*透明度由0到1  红ff0000*/  
+   0%{/*opacity:0.2; /*透明度为0*/background-color: #bf0707;}
+   100%{/*opacity:1; /*透明度为1*/background-color: #070c1b;}  
+ }
+.shineRY{
+	-webkit-animation:ry 1s infinite ease-in-out;
+	
+	/*-webkit-width:44px; 
+	-webkit-height:44px; 
+	-webkit-border-radius:22px;*/
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:ry 1s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineRRR{
+	-webkit-animation:rrr 1s infinite ease-in-out;
+	
+	/*-webkit-width:44px; 
+	-webkit-height:44px; 
+	-webkit-border-radius:22px;*/
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:rrr 1s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.shineYYY{
+	-webkit-animation:yy 1.2s infinite ease-in-out;
+	
+	/*-webkit-width:44px; 
+	-webkit-height:44px; 
+	-webkit-border-radius:22px;*/
+	/*-webkit-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	-moz-animation:yy 1.2s infinite ease-in-out;
+	/*-moz-box-shadow:0 0 1px 1px red,0 0 3px 3px black;*/
+	
+	/* 开启浏览器的GPU硬件加速 */
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
